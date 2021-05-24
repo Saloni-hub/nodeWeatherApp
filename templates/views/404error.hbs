@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        {{>headerlink}}
+</head>
+<body>
+   {{>navbar}}
+   <!-- main header -->
+        <div class=".container-fluid main_header">
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto">
+                    <div class="row">
+                          <!-- rigth side -->
+                          <div class="col-md-12 col-12 main_header_left align-items-center">
+                              <figure>
+                                <img src="/images/error1.jpg" style="border-radius: 15%; width:300px"; alt="cloud" class="img-fluid">
+                              </figure>
+                            <h1>{{errorMsg}}</h1>
+                            <a href="/"><button>Go Back</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+        {{>footer}}
+</body>
+</html>
